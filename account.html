@@ -1,0 +1,86 @@
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Create Account
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+   <div class="flex justify-center mb-6">
+    <img alt="HP logo" height="50" src="https://storage.googleapis.com/a1aa/image/DTnDxXNSg059P1al2MGfMfrtp7cJKtNEYWafw9mpfH4cotLQB.jpg" width="50"/>
+   </div>
+   <h1 class="text-2xl font-bold text-center mb-4">
+    Create account
+   </h1>
+   <div class="text-right mb-4">
+    <a class="text-blue-500" href="#">
+     Sign in
+    </a>
+   </div>
+   <form>
+    <div class="flex space-x-4 mb-4">
+     <div class="w-1/2">
+      <label class="block text-sm font-medium mb-1" for="first-name">
+       First name *
+      </label>
+      <input class="w-full border border-red-500 rounded p-2" id="first-name" placeholder="Enter your first name" type="text"/>
+      <p class="text-red-500 text-xs mt-1">
+       Enter your first name
+      </p>
+     </div>
+     <div class="w-1/2">
+      <label class="block text-sm font-medium mb-1" for="last-name">
+       Last name *
+      </label>
+      <input class="w-full border border-red-500 rounded p-2" id="last-name" placeholder="Enter your last name" type="text"/>
+      <p class="text-red-500 text-xs mt-1">
+       Enter your last name
+      </p>
+     </div>
+    </div>
+    <div class="mb-4">
+     <label class="block text-sm font-medium mb-1" for="email">
+      Email address *
+     </label>
+     <input class="w-full border border-red-500 rounded p-2" id="email" placeholder="Enter your email address" type="email"/>
+     <p class="text-red-500 text-xs mt-1">
+      Enter your email address
+     </p>
+    </div>
+    <div class="mb-4 relative">
+     <label class="block text-sm font-medium mb-1" for="password">
+      Password *
+     </label>
+     <input class="w-full border border-red-500 rounded p-2" id="password" placeholder="Create a password" type="password"/>
+     <i class="fas fa-eye absolute right-3 top-10 text-gray-500">
+     </i>
+     <p class="text-red-500 text-xs mt-1">
+      Create a password
+     </p>
+    </div>
+    <div class="mb-4 flex items-start">
+     <input class="mt-1" id="offers" type="checkbox"/>
+     <label class="ml-2 text-sm" for="offers">
+      HP may email me with personalized offers, support updates, and event news.
+     </label>
+    </div>
+    <p class="text-xs text-gray-500 mb-4">
+     Your HP account identity information is used in accordance with the
+     <a class="text-blue-500" href="#">
+      HP Privacy Statement
+     </a>
+     .
+    </p>
+    <button class="w-full bg-blue-600 text-white py-2 rounded" type="submit">
+     Create
+    </button>
+   </form>
+  </div>
+ </body>
+</html>
